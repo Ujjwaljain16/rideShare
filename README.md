@@ -47,7 +47,7 @@ src/main/java/org/example/rideshare/
 
 1. **Clone the repository**
 ```bash
-cd c:\Users\ujjwa\OneDrive\Desktop\SpringBoot\rideshare
+git clone https://github.com/Ujjwaljain16/rideShare.git
 ```
 
 2. **Start MongoDB**
@@ -202,14 +202,6 @@ jwt.secret=YOUR_SECRET_KEY
 jwt.expiration=86400000
 ```
 
-## 🧪 Testing with Postman
-
-1. Import the API endpoints into Postman
-2. Create an environment with variables:
-   - `baseUrl`: http://localhost:8081
-   - `userToken`: (set after login)
-   - `driverToken`: (set after driver login)
-3. Use `{{baseUrl}}` and `{{userToken}}` in requests
 
 ## ⚠️ Error Handling
 
@@ -246,10 +238,3 @@ Error Types:
 - ✅ JWT Auth implemented
 - ✅ README with endpoint documentation
 
-## 📝 License
-
-This is a student project for educational purposes.
-
----
-
-**Built with ❤️ using Spring Boot**
