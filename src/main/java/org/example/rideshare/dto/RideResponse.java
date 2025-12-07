@@ -1,11 +1,12 @@
 package org.example.rideshare.dto;
 
+import java.util.Date;
+
+import org.example.rideshare.model.Ride;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.rideshare.model.Ride;
-
-import java.util.Date;
 
 @Data
 @NoArgsConstructor
